@@ -4,7 +4,7 @@ import { google, slack,alassian,dropbox,
 shopify} from './imports';
 const Brand = () => {
   return (
-    <div className='gpt3_brand section__padding'>
+    <div className='gpt3__brand section__padding'>
     <div>
       <img src={google} alt='google'/>
     </div>
@@ -17,10 +17,6 @@ const Brand = () => {
     <div>
       <img src={alassian} alt='alassian'/>
     </div>
-
-
-
-    hello worls
 
     <div>
       <img src={dropbox} alt='dropbox'/>
