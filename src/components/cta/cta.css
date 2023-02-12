@@ -56,11 +56,26 @@
 
 @media screen and (max-width:650px){
     .gpt3__cta{
+        margin: 4rem 2rem;
+    }
+
+    .gpt3__cta-content h3{
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .gpt3__cta-btn button{
+        font-size: 12px;
+        line-height: 28px;
+        margin-right: 37px
+    }
+    .gpt3__cta{
         flex-direction:column;
     }
 
-    .gpt3_-cta-btn{
-        margin: 2rem 0 0 ;
+    .gpt3_cta-btn{
+        margin: 2rem 2rem ;
+        align-items: center;
     }
 
 }
@@ -76,7 +91,8 @@
     }
 
     .gpt3__cta-btn button{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 28px;
+        margin-right: 37px
     }
 }
