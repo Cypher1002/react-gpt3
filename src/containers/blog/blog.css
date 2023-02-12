@@ -19,8 +19,9 @@
 }
 
 .gpt3__blog-container{
-    display: flex;
-    flex-direction: row;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 2rem;
 }
 
 .gpt3__blog-container_groupA{
@@ -39,6 +40,7 @@
 
  @media screen and(max-width:990px){
      .gpt3__blog-container{
+         display: flex;
          flex-direction: column-reverse;
      }
 
@@ -65,7 +67,6 @@
      }
 
      .gpt3__blog-heading{
-
          font-size: 46px;
          line-height: 52px;
      }
@@ -74,7 +75,6 @@
  @media screen and(max-width:500px){
 
     .gpt3__blog-heading{
-
         font-size: 46px;
         line-height: 52px;
     }

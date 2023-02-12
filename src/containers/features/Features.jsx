@@ -1,6 +1,6 @@
 import React from 'react'
 import './features.css'
-import { Feature } from '../../components';
+import { Feature } from '../../components/navbar';
 const featuresData = [
     {Title: "Lorem ipsum ",
       Text:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, at"
